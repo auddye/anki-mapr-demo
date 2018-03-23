@@ -25,7 +25,7 @@
  ************************************************/
 
 module.exports = {
-    mode: "discover", // | uk | fr
+    mode: "uk", // discover | uk | fr
     frCars: [{
             "carName": "Skull",
             "address": "de:d5:50:6b:e0:43"
@@ -37,19 +37,19 @@ module.exports = {
     ],
     ukCars: [{
             "carName": "Skull",
-            "address": "de:b8:24:73:ac:03"
+            "address": "f9:27:cb:cd:ed:d4"
         },
         {
-            "carName": "Ground Shock",
-            "address": "c6:18:a8:10:41:26",
+            "carName": "Guardian",
+            "address": "f8:94:9c:29:0f:ae",
         },
         {
             "carName": "Thermo",
-            "address": "de:8b:c9:54:97:60"
+            "address": "d8:91:18:c0:b4:9d"
         },
         {
             "carName": "Nuke",
-            "address": "e6:25:f8:72:c8:1d",
+            "address": "cf:cc:21:cf:5c:8d",
         }
     ]
 };
