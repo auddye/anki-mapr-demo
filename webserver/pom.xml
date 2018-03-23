@@ -13,7 +13,7 @@
 
   <groupId>com.mapr.demo.vertx</groupId>
   <artifactId>mapr-anki-dashboard</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>4.0-SNAPSHOT</version>
   <name>MapR AnkiDashboard</name>
 
   <properties>

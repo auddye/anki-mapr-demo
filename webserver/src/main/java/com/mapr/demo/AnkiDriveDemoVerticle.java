@@ -124,21 +124,21 @@ public class AnkiDriveDemoVerticle extends AbstractVerticle {
   private void startDemo(RoutingContext routingContext) {
     System.out.println( ankiController );
 
-    client.get( ankiControllerPort, ankiControllerHost, "/startDemoGo"  ).send( ar -> {
+
+    client.get( ankiControllerPort, ankiControllerHost, "/startDemo"  ).send( ar -> {
       if (ar.succeeded()) {
         HttpResponse<Buffer> response = ar.result();
-
-        routingContext.response()
-                .putHeader("content-type", "text/html; charset=utf-8")
-                .end(response.body());
-
-
         System.out.println("Got HTTP response with status " + response.statusCode());
       } else {
         ar.cause().printStackTrace();
       }
             }
     );
+
+
+    routingContext.response()
+            .putHeader("content-type", "text/html; charset=utf-8")
+            .end("TEST");
 
 
   }

@@ -51,31 +51,47 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
+            <h2 align="center">Skull</h2>
+        </div>
+        <div class="col-md-3">
             <h2 align="center">Ground Shock</h2>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h2 align="center">Nuke</h2>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h2 align="center">Thermo</h2>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-4" style="align-content: center">
+        <div class="col-md-3">
+            <div  id="SkullSpeedGaugeContainer"></div>
+        </div>
+        <div class="col-md-3" style="align-content: center">
             <div style="align-content: center" id="GroundShockSpeedGaugeContainer"></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div  id="NukeSpeedGaugeContainer"></div>
         </div>
-        <div class="col-md-4" style="align-content: center">
+        <div class="col-md-3" style="align-content: center">
             <div style="align-content: center" id="ThermoSpeedGaugeContainer"></div>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
+            <br/>
+
+            <div class="progress">
+                <div id="SkullBatteryLevel" class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                    <span id="current-progress"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
             <br/>
 
             <div class="progress">
@@ -85,7 +101,7 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <br/>
 
             <div class="progress">
@@ -95,7 +111,7 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <br/>
 
             <div class="progress">
